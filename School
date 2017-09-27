@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Enver Creek</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Grade 8</li>
+      <li>Grade 9</li>
+      <li>Grade 10</li>
+      
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>School</h1>
+    <p>Students are required to enrol in English, Social Studies, Mathematics, Sciences, and Physical Education. Most academic areas offer honours courses. Advanced Placement courses are available for English, Calculus, Art, and now Chemistry, at the grade 12 level. </p>
+    <p>The number of International students enrolled at Enver Creek doubled from 2010 to 2011. Students from a variety of countries travel to Enver Creek Secondary to study for usually one or two semesters
+
+
+</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>school</p>
+</div>
+
+</body>
+</html>
