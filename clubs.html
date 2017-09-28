@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: lightblue;
+}
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+  <h1>Welcome to Enver Creek</h1> 
+  
+  <p> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Enver_Creek_Secondary_%2884_Avenue%29.jpg/250px-Enver_Creek_Secondary_%2884_Avenue%29.jpg"> </p>
+<div class="header">
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Grade 8</li>
+      <li>Grade 9</li>
+      <li>Grade 10</li>
+      
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>School</h1>
+   <p> Enver Creek Secondary School is a public high school located in Surrey, British Columbia, Canada and is part of the School District 36 Surrey. 
+Address: 14505 84 Ave, Surrey, BC V3S 8X2
+Phone: (604) 543-8149
+Principal: Mr. Mike Kilpatrick
+Superintendent: Dr. Jordan Tinney </p>      
+  </div>
+</div>
+
+<div class="footer">
+  <p>school</p>
+</div>
+
+</body>
+</html>
