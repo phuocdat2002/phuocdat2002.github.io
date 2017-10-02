@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+    width:50%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Clubs and Teams </h1>
+</div>
+<p><img src="https://i.ytimg.com/vi/AYPUwzunKFA/maxresdefault.jpg"> </p>
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Basketball</li>
+      <li>Football</li>
+      <li>Dance</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1></h1>
+    <p> The clubs at school Enver Creek so many as Basketball,Football,Dance etc...
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer Text</p>
+</div>
+
+</body>
+</html>
